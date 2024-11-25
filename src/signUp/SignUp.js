@@ -273,9 +273,9 @@ const SignUp = () => {
               />
               <StyledButton type="submit">Sign Up</StyledButton>
               <div className="or-field">
-                <img src="images/vector 1.svg" alt="" />
+                <img src="images/vector_1.svg" alt="" />
                 <span>or</span>
-                <img src="images/vector 2.svg" alt="" />
+                <img src="images/vector_1.svg" alt="" />
               </div>
               <GoogleButton
                 className="continue-with-google"
@@ -370,6 +370,11 @@ const SignUpConatiner = styled.div`
     display: flex;
     flex-direction: column;
     gap: 20px;
+  }
+  .or-field {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   /* Hide the image on mobile */
